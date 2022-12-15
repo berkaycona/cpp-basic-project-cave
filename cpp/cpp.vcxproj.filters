@@ -27,7 +27,7 @@
     <ClCompile Include="Node.cpp">
       <Filter>Kaynak Dosyalar</Filter>
     </ClCompile>
-    <ClCompile Include="rectangles.cpp">
+    <ClCompile Include="rectangleArea.cpp">
       <Filter>Kaynak Dosyalar\rectangles</Filter>
     </ClCompile>
   </ItemGroup>
