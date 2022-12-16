@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="Node.cpp" />
+    <ClCompile Include="parkingFare.cpp" />
     <ClCompile Include="randomNumber.cpp" />
     <ClCompile Include="rectangleArea.cpp" />
     <ClCompile Include="videogames.cpp" />

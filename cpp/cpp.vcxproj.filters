@@ -19,6 +19,9 @@
     <Filter Include="Kaynak Dosyalar\videoGames">
       <UniqueIdentifier>{2f21ae0b-f024-4023-8a24-6404e2da65da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\parkingFare">
+      <UniqueIdentifier>{5ec4fee9-b842-4cc0-bb52-73810e459bc6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp.cpp">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="videogames.cpp">
       <Filter>Kaynak Dosyalar\videoGames</Filter>
+    </ClCompile>
+    <ClCompile Include="parkingFare.cpp">
+      <Filter>Kaynak Dosyalar\parkingFare</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
