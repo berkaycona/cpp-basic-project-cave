@@ -45,10 +45,14 @@
 //    {
 //        cout << "Perimeter: " << perimeter << endl;
 //    }
+//    void calculatePerimeter()
+//    {
+//        perimeter = 2*(length + breadth);
+//
+//    }
 //};
 //int main()
 //{
-//    int number;
 //    Area a[3];
 //    for (int i = 0; i < 3; i++) 
 //    {
@@ -59,6 +63,7 @@
 //    {
 //        a[i].DisplayArea();
 //    }
+//    
 //    Area A(5, 2);
 //    A.calculateArea();
 //    A.DisplayArea();

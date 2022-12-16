@@ -131,6 +131,7 @@
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="randomNumber.cpp" />
     <ClCompile Include="rectangleArea.cpp" />
+    <ClCompile Include="videogames.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -16,6 +16,9 @@
     <Filter Include="Kaynak Dosyalar\rectangles">
       <UniqueIdentifier>{8a44294f-c470-4f0e-b315-109f0ad0e23e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\videoGames">
+      <UniqueIdentifier>{2f21ae0b-f024-4023-8a24-6404e2da65da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="rectangleArea.cpp">
       <Filter>Kaynak Dosyalar\rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="videogames.cpp">
+      <Filter>Kaynak Dosyalar\videoGames</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
