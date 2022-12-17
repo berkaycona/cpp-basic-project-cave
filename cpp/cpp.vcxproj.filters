@@ -22,6 +22,9 @@
     <Filter Include="Kaynak Dosyalar\parkingFare">
       <UniqueIdentifier>{5ec4fee9-b842-4cc0-bb52-73810e459bc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\polygon">
+      <UniqueIdentifier>{e7025215-6afe-4558-8387-b909fa18901e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="parkingFare.cpp">
       <Filter>Kaynak Dosyalar\parkingFare</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>Kaynak Dosyalar\polygon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
