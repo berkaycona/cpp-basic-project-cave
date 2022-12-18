@@ -6,7 +6,6 @@
 using namespace std;
 
 
-
 class Polygon {
 private:
 	int* ptr;
@@ -21,7 +20,7 @@ public:
 
 };
 
-// Member functions definitions including constructor
+//Member functions definitions including constructor
 Polygon::Polygon(int lengthFromMain) 
 {
 	cout << "Default Constructor Allocating ptr" << endl;
@@ -32,6 +31,7 @@ Polygon::Polygon(int lengthFromMain)
 	// *ptr = len;
 }
 
+//Copy Constructor
 Polygon::Polygon(const Polygon& obj) 
 {
 	cout << "Copy Constructor Allocating ptr" << endl;
@@ -45,11 +45,15 @@ Polygon::Polygon(const Polygon& obj)
 
 }
 
+//Destructor
 Polygon::~Polygon(void) 
 {
 	cout << "Freeing Memory!" << endl;
 	free(ptr);
 }
+
+
+
 
 void Polygon::setEdges(void) 
 {
