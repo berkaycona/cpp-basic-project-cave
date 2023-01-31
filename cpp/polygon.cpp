@@ -8,7 +8,7 @@ using namespace std;
 
 class Polygon {
 private:
-	int* ptr;
+	int* edgesPointer;
 	int length;
 public:
 	friend void sumOfEdges(Polygon& obj); // friend function
@@ -21,15 +21,19 @@ public:
 };
 
 //Member functions definitions including constructor
+
+
 Polygon::Polygon(int lengthFromMain) 
 {
-	cout << "Default Constructor Allocating ptr" << endl;
+	cout << "Overloaded Constructor Allocating ptr" << endl;
 	
 	// allocate memory for the pointer;
-	ptr = (int*)malloc(lengthFromMain * sizeof(int));
+	edgesPointer = (int*)malloc(lengthFromMain * sizeof(int)); //How exactly does this statement work
+
+
 	length = lengthFromMain;
-	// *ptr = len;
 }
+
 
 //Copy Constructor
 Polygon::Polygon(const Polygon& obj) 
@@ -37,10 +41,10 @@ Polygon::Polygon(const Polygon& obj)
 	cout << "Copy Constructor Allocating ptr" << endl;
 	//ptr = new int;
 	length = obj.length;
-	ptr = new int[length];
+	edgesPointer = new int[length];
 	for (int i = 0; i < length; i++) 
 	{
-		ptr[i] = obj.ptr[i];
+		edgesPointer[i] = obj.edgesPointer[i];
 	}
 
 }
@@ -49,7 +53,7 @@ Polygon::Polygon(const Polygon& obj)
 Polygon::~Polygon(void) 
 {
 	cout << "Freeing Memory!" << endl;
-	free(ptr);
+	free(edgesPointer);
 }
 
 
@@ -57,18 +61,19 @@ Polygon::~Polygon(void)
 
 void Polygon::setEdges(void) 
 {
-	for (int i = 0; i < length; i++) 
+	for (int i = 0; i < this->length; i++) 
 	{
 		cout << "Enter the Edge " << i + 1 << ": ";
-		cin >> ptr[i];
+		cin >> edgesPointer[i];
 	}
 }
 
+//friend function
 void sumOfEdges(Polygon& obj) 
 {
 	int total = 0;
 	for (int i = 0; i < obj.length; i++) {
-		total += obj.ptr[i];
+		total += obj.edgesPointer[i];
 	}
 	cout << "Sum of Edges: " << total << endl;
 }
@@ -78,7 +83,7 @@ void Polygon::getCircumference()
 	int total = 0;
 	for (int i = 0; i < length; i++) 
 	{
-		total += ptr[i];
+		total += edgesPointer[i];
 	}
 	cout << "Sum of edges: " << total << endl;
 }
@@ -88,12 +93,20 @@ int main()
 	int number;
 	cout << "Enter Number of Edges for Polygon: ";
 	cin >> number;
+
+
 	Polygon line1(number);
 	// Polygon line2 = line1; // This also calls copy constructor
+
+
 	line1.setEdges();
 	line1.getCircumference();
+
+
 	Polygon line2 = line1;
 	//line2.getLength();
 	line2.getCircumference();
+
+
 	return 0;
 }
