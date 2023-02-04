@@ -128,11 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpp.cpp" />
+    <ClCompile Include="globalFriendFunction.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="parkingFare.cpp" />
     <ClCompile Include="polygon.cpp" />
     <ClCompile Include="randomNumber.cpp" />
     <ClCompile Include="rectangleArea.cpp" />
+    <ClCompile Include="friendClass.cpp" />
+    <ClCompile Include="twoClassFriendFunction.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
