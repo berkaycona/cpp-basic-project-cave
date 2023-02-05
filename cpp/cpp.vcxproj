@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="globalFriendFunction.cpp" />
