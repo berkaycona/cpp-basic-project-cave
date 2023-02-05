@@ -60,5 +60,8 @@
     <ClCompile Include="friendClass.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
     </ClCompile>
+    <ClCompile Include="shallowCopyConstructor.cpp">
+      <Filter>Kaynak Dosyalar\simpleClasses</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
