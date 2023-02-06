@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CompoundExampleShallowCopy.cpp" />
+    <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />
     <ClCompile Include="cpp.cpp" />
