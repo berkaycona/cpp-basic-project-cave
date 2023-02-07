@@ -132,6 +132,7 @@
     <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="deleteFree.cpp" />
+    <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="globalFriendFunction.cpp" />

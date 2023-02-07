@@ -13,43 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Kaynak Dosyalar\rectangles">
-      <UniqueIdentifier>{8a44294f-c470-4f0e-b315-109f0ad0e23e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Kaynak Dosyalar\videoGames">
-      <UniqueIdentifier>{2f21ae0b-f024-4023-8a24-6404e2da65da}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Kaynak Dosyalar\parkingFare">
-      <UniqueIdentifier>{5ec4fee9-b842-4cc0-bb52-73810e459bc6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Kaynak Dosyalar\polygon">
-      <UniqueIdentifier>{e7025215-6afe-4558-8387-b909fa18901e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Kaynak Dosyalar\simpleClasses">
       <UniqueIdentifier>{c1c681f1-e2b7-41d9-9ea2-0dbdc22e1a83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\Projects">
+      <UniqueIdentifier>{27153faa-23db-4658-882b-dd66eaf1f5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Projects\parkingFare">
+      <UniqueIdentifier>{5ec4fee9-b842-4cc0-bb52-73810e459bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Projects\polygon">
+      <UniqueIdentifier>{e7025215-6afe-4558-8387-b909fa18901e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Projects\rectangles">
+      <UniqueIdentifier>{8a44294f-c470-4f0e-b315-109f0ad0e23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Projects\videoGames">
+      <UniqueIdentifier>{2f21ae0b-f024-4023-8a24-6404e2da65da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Polymorphism">
+      <UniqueIdentifier>{50a03ea3-16d0-412d-b806-f9a7bfb1ed8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpp.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="randomNumber.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="Node.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
     <ClCompile Include="rectangleArea.cpp">
-      <Filter>Kaynak Dosyalar\rectangles</Filter>
+      <Filter>Kaynak Dosyalar\Projects\rectangles</Filter>
     </ClCompile>
     <ClCompile Include="videogames.cpp">
-      <Filter>Kaynak Dosyalar\videoGames</Filter>
+      <Filter>Kaynak Dosyalar\Projects\videoGames</Filter>
     </ClCompile>
     <ClCompile Include="parkingFare.cpp">
-      <Filter>Kaynak Dosyalar\parkingFare</Filter>
+      <Filter>Kaynak Dosyalar\Projects\parkingFare</Filter>
     </ClCompile>
     <ClCompile Include="polygon.cpp">
-      <Filter>Kaynak Dosyalar\polygon</Filter>
+      <Filter>Kaynak Dosyalar\Projects\polygon</Filter>
     </ClCompile>
     <ClCompile Include="globalFriendFunction.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
@@ -72,11 +69,23 @@
     <ClCompile Include="CompoundExampleShallowCopy.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
     </ClCompile>
-    <ClCompile Include="CompoundExampleDeepCopy.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
     <ClCompile Include="deleteFree.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundExampleDeepCopy.cpp">
+      <Filter>Kaynak Dosyalar\simpleClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp.cpp">
+      <Filter>Kaynak Dosyalar\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Kaynak Dosyalar\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="randomNumber.cpp">
+      <Filter>Kaynak Dosyalar\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="functionOverloading.cpp">
+      <Filter>Kaynak Dosyalar\Polymorphism</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
