@@ -72,5 +72,11 @@
     <ClCompile Include="CompoundExampleShallowCopy.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
     </ClCompile>
+    <ClCompile Include="CompoundExampleDeepCopy.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteFree.cpp">
+      <Filter>Kaynak Dosyalar\simpleClasses</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
