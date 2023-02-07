@@ -87,5 +87,8 @@
     <ClCompile Include="functionOverloading.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
     </ClCompile>
+    <ClCompile Include="operatorOverloading.cpp">
+      <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
