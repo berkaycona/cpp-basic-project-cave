@@ -174,6 +174,8 @@ int main()
 
 	
 	cout <<endl<<endl<< "+,-,== operators" << endl << "--------------" << endl;
+
+	cout << endl << "+ operator" << endl << "--------" << endl;
 	MyString s3 = "Hello";
 	MyString s4{ "World" };
 	s3.display();
@@ -189,6 +191,23 @@ int main()
 	{
 		cout << "Not Equal" << endl;
 	}
+
+	//- operator example
+	cout << endl << "- operator" << endl << "--------" << endl;
+	MyString mLower = "AAAAA";
+	mLower = -mLower;
+	mLower.display();
+
+
+	//+ operator example
+	cout <<endl<< "+ operator" << endl<<"--------"<<endl;
+
+	MyString mPlus = s3 + s4; //It will call the function for s3, and take s4 for argument
+	mPlus.display();
+	MyString mPlus2 = s3 + " not An Object!";
+	mPlus2.display();
+	//MyString mPlus2 = "not An Object!" + s3;  = this won't work since the operator overload function is a member function
+
 
 }
 //5410
