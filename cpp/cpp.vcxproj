@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="CompoundExampleDeepCopy.cpp" />
     <ClCompile Include="CompoundExampleShallowCopy.cpp" />
+    <ClCompile Include="constKeyword.cpp" />
     <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="deleteFree.cpp" />
