@@ -96,5 +96,8 @@
     <ClCompile Include="constMethods.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
     </ClCompile>
+    <ClCompile Include="operatorOverloading2.cpp">
+      <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
