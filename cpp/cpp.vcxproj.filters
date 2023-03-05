@@ -34,6 +34,9 @@
     <Filter Include="Kaynak Dosyalar\Polymorphism">
       <UniqueIdentifier>{50a03ea3-16d0-412d-b806-f9a7bfb1ed8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\Basics">
+      <UniqueIdentifier>{c777bf82-7311-4ee6-be57-9d1d7daeba27}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rectangleArea.cpp">
@@ -101,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="operatorOverloading3FriendFunction.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="cpparrays.cpp">
+      <Filter>Kaynak Dosyalar\Basics</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
