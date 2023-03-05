@@ -137,6 +137,7 @@
     <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="operatorOverloading.cpp" />
     <ClCompile Include="operatorOverloading2.cpp" />
+    <ClCompile Include="operatorOverloading3FriendFunction.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="globalFriendFunction.cpp" />

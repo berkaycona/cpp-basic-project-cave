@@ -99,5 +99,8 @@
     <ClCompile Include="operatorOverloading2.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
     </ClCompile>
+    <ClCompile Include="operatorOverloading3FriendFunction.cpp">
+      <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
