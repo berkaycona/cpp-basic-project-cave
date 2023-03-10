@@ -132,6 +132,7 @@
     <ClCompile Include="constKeyword.cpp" />
     <ClCompile Include="constMethods.cpp" />
     <ClCompile Include="cpparrays.cpp" />
+    <ClCompile Include="cppStrings.cpp" />
     <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="deleteFree.cpp" />

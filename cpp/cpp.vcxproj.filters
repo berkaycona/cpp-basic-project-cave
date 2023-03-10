@@ -108,5 +108,8 @@
     <ClCompile Include="cpparrays.cpp">
       <Filter>Kaynak Dosyalar\Basics</Filter>
     </ClCompile>
+    <ClCompile Include="cppStrings.cpp">
+      <Filter>Kaynak Dosyalar\Basics</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
