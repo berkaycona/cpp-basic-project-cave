@@ -137,6 +137,7 @@
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="deleteFree.cpp" />
     <ClCompile Include="functionOverloading.cpp" />
+    <ClCompile Include="keywordStatic.cpp" />
     <ClCompile Include="operatorOverloading.cpp" />
     <ClCompile Include="operatorOverloading2.cpp" />
     <ClCompile Include="operatorOverloading3FriendFunction.cpp" />

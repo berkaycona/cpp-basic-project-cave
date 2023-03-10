@@ -111,5 +111,8 @@
     <ClCompile Include="cppStrings.cpp">
       <Filter>Kaynak Dosyalar\Basics</Filter>
     </ClCompile>
+    <ClCompile Include="keywordStatic.cpp">
+      <Filter>Kaynak Dosyalar\Basics</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
