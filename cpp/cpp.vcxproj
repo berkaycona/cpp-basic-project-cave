@@ -133,6 +133,7 @@
     <ClCompile Include="constMethods.cpp" />
     <ClCompile Include="cpparrays.cpp" />
     <ClCompile Include="cppFunctions.cpp" />
+    <ClCompile Include="cppPointers.cpp" />
     <ClCompile Include="cppStrings.cpp" />
     <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
