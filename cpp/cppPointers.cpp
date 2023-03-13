@@ -1,15 +1,15 @@
-#pragma warning(disable : 4996)
-//Cpp Basics - Pointers
-
-#include <iostream>
-using namespace std;
-
-
-
-
-
-int main()
-{
+//#pragma warning(disable : 4996)
+////Cpp Basics - Pointers
+//
+//#include <iostream>
+//using namespace std;
+//
+//
+//
+//
+//
+//int main()
+//{
 	
 	
 	////[3] Declaring Pointers
@@ -80,6 +80,49 @@ int main()
 
 
 
-	//[5] Pointer Initialization
+	////[5] Pointer Initialization
+	////1 
+	//int myvar;
+	//int* myptr = &myvar;
 
-}
+	////2
+	//int myvar2;
+	//int* myptr2;
+	//myptr2 = &myvar2;
+
+	////3 value of other pointer
+	//int myvar;
+	//int* foo = &myvar;
+	//int* bar = foo;
+
+
+
+
+
+	////[6]Pointer Arithmetics
+	//int a[5] = { 10,20,30,40,50 };
+	//int* p;
+	//p = a;
+
+
+	//int b=*p++;   // same as *(p++): increment pointer, and dereference unincremented address
+
+	//int c=*++p;   // same as *(++p): increment pointer, and dereference incremented address
+
+	//int d=++* p;   // same as ++(*p): dereference pointer, and increment the value it points to
+
+	//int e=(*p)++; // dereference pointer, and post-increment the value it points to 
+
+	//int* q;
+
+	//*p++ = *q++;
+
+
+
+
+
+	//[7]Pointers and Const
+
+
+
+//}
