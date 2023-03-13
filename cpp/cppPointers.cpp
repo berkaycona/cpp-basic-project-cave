@@ -1,9 +1,9 @@
-#pragma warning(disable : 4996)
-//Cpp Basics - Pointers
-
-#include <iostream>
-using namespace std;
-
+//#pragma warning(disable : 4996)
+////Cpp Basics - Pointers
+//
+//#include <iostream>
+//using namespace std;
+//
 
 
 ////7.2
@@ -25,8 +25,49 @@ using namespace std;
 //	}
 //}
 
-int main()
-{
+	////[10] Void Pointers
+
+	//void increase(void* data, int psize)
+	//{
+	//	if (psize == sizeof(char))
+	//	{
+	//		char* pchar; pchar = (char*)data; ++(*pchar);
+	//	}
+	//	else if (psize == sizeof(int))
+	//	{
+	//		int* pint; pint = (int*)data; ++(*pint);
+	//	}
+	//}
+
+
+	
+	
+	
+	
+	
+//	//[12] Pointers to functions
+//int addition(int a, int b)
+//{
+//	return (a + b);
+//}
+//
+//int subtraction(int a, int b)
+//{
+//	return (a - b);
+//}
+//
+//int operation(int x, int y, int (*functocall)(int, int))
+//{
+//	int g;
+//	g = (*functocall)(x, y);
+//	return (g);
+//}
+
+
+
+
+//int main()
+//{
 	
 	
 	////[3] Declaring Pointers
@@ -175,6 +216,56 @@ int main()
 	//*(foo + 4)// can also be written as foo[4]
 	
 
-}
+
+
+
+	////[9] Pointers to Pointers
+
+	//char a9;
+	//char* b9;
+	//char** c9;
+	//a9 = 'z';
+	//b9 = &a9;
+	//c9 = &b9;
+
+	
+
+	////[10] Void Pointers
+	//char a10 = 'x';
+	//int b10 = 1602;
+	//increase(&a10, sizeof(a10));
+	//increase(&b10, sizeof(b10));
+	//cout << a10 << ", " << b10 << endl;
+
+	
+
+
+	////[11] Invalid Pointersand Null Oointers
+	//11.1
+	//int* p11_1; // uninitialized pointer (local variable)
+
+	//int myarray11_1[10];
+	//int* q11_1 = myarray11_1 + 20; // element out of bounds 
+
+	////11.2
+	//int* p11_2 = 0;
+	//int* q11_2 = nullptr;
+
+
+	////11.3
+	//int* r = NULL;
+
+
+
+
+	////[12] Pointers to functions
+	//int m12, n12;
+	//int (*minus)(int, int) = subtraction;
+
+	//m12 = operation(7, 5, addition);
+	//n12 = operation(20, m12, minus);
+	//cout << n12;
+
+//}
 
 
