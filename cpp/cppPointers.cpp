@@ -1,15 +1,32 @@
-//#pragma warning(disable : 4996)
-////Cpp Basics - Pointers
-//
-//#include <iostream>
-//using namespace std;
-//
-//
-//
-//
-//
-//int main()
+#pragma warning(disable : 4996)
+//Cpp Basics - Pointers
+
+#include <iostream>
+using namespace std;
+
+
+
+////7.2
+//void increment_all(int* start, int* stop)
 //{
+//	int* current = start;
+//	while (current != stop) {
+//		++(*current);  // increment value pointed
+//		++current;     // increment pointer
+//	}
+//}
+//
+//void print_all(const int* start, const int* stop)
+//{
+//	const int* current = start;
+//	while (current != stop) {
+//		cout << *current << '\n';
+//		++current;     // increment pointer
+//	}
+//}
+
+int main()
+{
 	
 	
 	////[3] Declaring Pointers
@@ -121,8 +138,43 @@
 
 
 
-	//[7]Pointers and Const
+	////[7]Pointers and Const
+	////7.1
+	//int x7_1;
+	//int y7_1 = 10;
+	//const int* p7_1 = &y7_1;
+	//x7_1 = *p7_1;// ok: reading p
+	////*p7_1 = x7_1;// error: modifying p, which is const-qualified 
+
+
+	////7.2
+	//int numbers[] = { 10,20,30 };
+	//increment_all(numbers, numbers + 3);
+	//print_all(numbers, numbers + 3);
+
+
+	////7.3
+	//int x7_3;
+	//int* p1_7_3 = &x7_3;  // non-const pointer to non-const int
+	//const int* p2_7_3 = &x7_3;  // non-const pointer to const int
+	//int* const p3_7_3 = &x7_3;  // const pointer to non-const int
+	//const int* const p4_7_3 = &x7_3;  // const pointer to const int 
+
+
+	//const int* p2a7_3 = &x7_3;  //      non-const pointer to const int
+	//int const* p2b_7_3 = &x7_3;  // also non-const pointer to const int 
 
 
 
-//}
+
+	////[8]Pointers and string literals
+
+	//const char* foo = "hello";
+
+
+	//*(foo + 4)// can also be written as foo[4]
+	
+
+}
+
+
