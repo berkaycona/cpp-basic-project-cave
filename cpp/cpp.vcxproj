@@ -134,6 +134,7 @@
     <ClCompile Include="cpparrays.cpp" />
     <ClCompile Include="cppFunctions.cpp" />
     <ClCompile Include="cppPointers.cpp" />
+    <ClCompile Include="cppReferences.cpp" />
     <ClCompile Include="cppStrings.cpp" />
     <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
