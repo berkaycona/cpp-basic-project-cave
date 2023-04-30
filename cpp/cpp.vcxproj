@@ -131,6 +131,7 @@
     <ClCompile Include="CompoundExampleShallowCopy.cpp" />
     <ClCompile Include="constKeyword.cpp" />
     <ClCompile Include="constMethods.cpp" />
+    <ClCompile Include="constructorsAndInheritance.cpp" />
     <ClCompile Include="cpparrays.cpp" />
     <ClCompile Include="cppFunctions.cpp" />
     <ClCompile Include="cppPointers.cpp" />
