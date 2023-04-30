@@ -37,6 +37,12 @@
     <Filter Include="Kaynak Dosyalar\Basics">
       <UniqueIdentifier>{c777bf82-7311-4ee6-be57-9d1d7daeba27}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\Inheritance">
+      <UniqueIdentifier>{b83efa59-8d6b-4ce6-b844-52e030af183b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Comprehensive">
+      <UniqueIdentifier>{5970831b-8b22-4ccf-bb77-344cf60c1fc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rectangleArea.cpp">
@@ -114,11 +120,26 @@
     <ClCompile Include="keywordStatic.cpp">
       <Filter>Kaynak Dosyalar\Basics</Filter>
     </ClCompile>
-    <ClCompile Include="cppFunctions.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
     <ClCompile Include="cppPointers.cpp">
       <Filter>Kaynak Dosyalar\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="constructorsAndInheritance.cpp">
+      <Filter>Kaynak Dosyalar\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="privateProtectedPublic.cpp">
+      <Filter>Kaynak Dosyalar\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="inheritanceComposition.cpp">
+      <Filter>Kaynak Dosyalar\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="cppFunctions.cpp">
+      <Filter>Kaynak Dosyalar\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="cppReferences.cpp">
+      <Filter>Kaynak Dosyalar\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedLists.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
