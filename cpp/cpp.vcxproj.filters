@@ -153,5 +153,8 @@
     <ClCompile Include="Pairs.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive</Filter>
     </ClCompile>
+    <ClCompile Include="Deques.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
