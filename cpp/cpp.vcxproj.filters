@@ -141,5 +141,11 @@
     <ClCompile Include="LinkedLists.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive</Filter>
     </ClCompile>
+    <ClCompile Include="Lists.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+    </ClCompile>
+    <ClCompile Include="Stacks.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
