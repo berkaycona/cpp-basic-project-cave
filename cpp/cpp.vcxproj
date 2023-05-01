@@ -158,6 +158,7 @@
     <ClCompile Include="randomNumber.cpp" />
     <ClCompile Include="rectangleArea.cpp" />
     <ClCompile Include="friendClass.cpp" />
+    <ClCompile Include="Stacks.cpp" />
     <ClCompile Include="twoClassFriendFunction.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
