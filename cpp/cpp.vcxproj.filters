@@ -147,5 +147,11 @@
     <ClCompile Include="Stacks.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive</Filter>
     </ClCompile>
+    <ClCompile Include="Queues.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+    </ClCompile>
+    <ClCompile Include="Pairs.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
