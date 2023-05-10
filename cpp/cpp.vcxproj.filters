@@ -162,5 +162,8 @@
     <ClCompile Include="Trees.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTrees.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

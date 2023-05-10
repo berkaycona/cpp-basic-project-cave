@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTrees.cpp" />
     <ClCompile Include="CompoundExampleDeepCopy.cpp" />
     <ClCompile Include="CompoundExampleShallowCopy.cpp" />
     <ClCompile Include="constKeyword.cpp" />
