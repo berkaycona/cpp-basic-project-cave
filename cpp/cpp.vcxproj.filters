@@ -40,8 +40,11 @@
     <Filter Include="Kaynak Dosyalar\Inheritance">
       <UniqueIdentifier>{b83efa59-8d6b-4ce6-b844-52e030af183b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Kaynak Dosyalar\Comprehensive">
+    <Filter Include="Kaynak Dosyalar\Comprehensive-1">
       <UniqueIdentifier>{5970831b-8b22-4ccf-bb77-344cf60c1fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Comprehensive-2">
+      <UniqueIdentifier>{cf5b63cf-cd24-4f17-b6cf-a2b411399cf7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -139,22 +142,25 @@
       <Filter>Kaynak Dosyalar\Basics</Filter>
     </ClCompile>
     <ClCompile Include="LinkedLists.cpp">
-      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
     <ClCompile Include="Lists.cpp">
-      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
     <ClCompile Include="Stacks.cpp">
-      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
     <ClCompile Include="Queues.cpp">
-      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
     <ClCompile Include="Pairs.cpp">
-      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
     <ClCompile Include="Deques.cpp">
-      <Filter>Kaynak Dosyalar\Comprehensive</Filter>
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
