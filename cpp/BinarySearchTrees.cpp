@@ -1,5 +1,5 @@
-//// C++ program to demonstrate insertion
-//// in a BST recursively
+//#pragma warning(disable : 4996)
+////Cpp COMPREHENSIVE-2 - BinarySearchTrees
 //
 //#include <cstddef>
 //#include <iostream>

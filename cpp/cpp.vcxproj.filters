@@ -168,5 +168,14 @@
     <ClCompile Include="BinarySearchTrees.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
     </ClCompile>
+    <ClCompile Include="AVLTrees.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBlackTrees.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBinarySearchTrees.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

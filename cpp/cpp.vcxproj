@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AVLTrees.cpp" />
+    <ClCompile Include="BalancedBinarySearchTrees.cpp" />
     <ClCompile Include="BinarySearchTrees.cpp" />
     <ClCompile Include="BinaryTrees.cpp" />
     <ClCompile Include="CompoundExampleDeepCopy.cpp" />
@@ -154,6 +156,7 @@
     <ClCompile Include="Pairs.cpp" />
     <ClCompile Include="privateProtectedPublic.cpp" />
     <ClCompile Include="Queues.cpp" />
+    <ClCompile Include="RedBlackTrees.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="globalFriendFunction.cpp" />
