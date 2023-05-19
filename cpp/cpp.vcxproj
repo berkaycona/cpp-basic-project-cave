@@ -169,6 +169,7 @@
     <ClCompile Include="friendClass.cpp" />
     <ClCompile Include="Stacks.cpp" />
     <ClCompile Include="Trees.cpp" />
+    <ClCompile Include="Tries.cpp" />
     <ClCompile Include="twoClassFriendFunction.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
