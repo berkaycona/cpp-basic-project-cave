@@ -177,5 +177,8 @@
     <ClCompile Include="BalancedBinarySearchTrees.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
     </ClCompile>
+    <ClCompile Include="PriorityQueues.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
