@@ -183,5 +183,8 @@
     <ClCompile Include="Tries.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
     </ClCompile>
+    <ClCompile Include="BTrees.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
