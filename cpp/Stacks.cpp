@@ -32,26 +32,26 @@
 //        std::cout << tempStackInt.top() << " ";
 //        tempStackInt.pop();
 //    }
-//    std::cout << std::endl;
+//    std::cout << std::endl;  // Output: Push: 3 2 1
 //
 //    // top()
-//    std::cout << "top: " << stackInt.top() << std::endl;
+//    std::cout << "top: " << stackInt.top() << std::endl;// Output: top: 3
 //
 //    // pop()
 //    stackInt.pop();
 //    std::cout << "pop: ";
 //    tempStackInt = stackInt;
 //    while (!tempStackInt.empty()) {
-//        std::cout << tempStackInt.top() << " ";
+//        std::cout << tempStackInt.top() << " ";// Output: pop: 2 1
 //        tempStackInt.pop();
 //    }
 //    std::cout << std::endl;
 //
 //    // size()
-//    std::cout << "size: " << stackInt.size() << std::endl;
+//    std::cout << "size: " << stackInt.size() << std::endl;// Output: size: 2
 //
 //    // empty()
-//    std::cout << "empty: " << stackInt.empty() << std::endl;
+//    std::cout << "empty: " << stackInt.empty() << std::endl;// Output: empty: 0 : CHECKS IF THE STACK IS EMPTY OR NOT. IF NOT, IT RETURNS 1.
 //
 //
 //
@@ -59,8 +59,8 @@
 //
 //
 //
-//    //FOR DEQUE
-//    
+//    //FOR DEQUE UNDERLYING CONTAINER (DEFAULT)
+//    std::cout << "\n\n\n DEQUE PART\n---------\n\n";
 //    // push(const value_type& val)
 //    stackDeque.push(1);
 //    stackDeque.push(2);
