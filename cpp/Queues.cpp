@@ -24,19 +24,22 @@
 //    integerQueue.push(1);
 //    integerQueue.push(2);
 //    integerQueue.push(3);
+//
 //    std::cout << "push: ";
+//
 //    std::queue<int> temp = integerQueue;
+//
 //    while (!temp.empty()) {
 //        std::cout << temp.front() << " ";
 //        temp.pop();
 //    }
-//    std::cout << std::endl;
+//    std::cout << std::endl;// Output: push: 1 2 3
 //
 //    // front()
-//    std::cout << "front: " << integerQueue.front() << std::endl;
+//    std::cout << "front: " << integerQueue.front() << std::endl;// Output: front: 1
 //
 //    // back()
-//    std::cout << "back: " << integerQueue.back() << std::endl;
+//    std::cout << "back: " << integerQueue.back() << std::endl;// Output: back: 3
 //
 //    // pop()
 //    integerQueue.pop();
@@ -46,13 +49,13 @@
 //        std::cout << temp.front() << " ";
 //        temp.pop();
 //    }
-//    std::cout << std::endl;
+//    std::cout << std::endl;// Output: pop: 2 3
 //
 //    // size()
-//    std::cout << "size: " << integerQueue.size() << std::endl;
+//    std::cout << "size: " << integerQueue.size() << std::endl;// Output: size: 2
 //
 //    // empty()
-//    std::cout << "empty: " << integerQueue.empty() << std::endl;
+//    std::cout << "empty: " << integerQueue.empty() << std::endl;// Output: empty: 0
 //
 //    return 0;
 //}
