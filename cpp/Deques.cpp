@@ -1,197 +1,198 @@
-//#pragma warning(disable : 4996)
-////Cpp COMPREHENSIVE - Deques
-//
-//#include <iostream>
-//#include <deque>
-//
-//#include <iostream>
-//#include <deque>
-//
-//
-//
-//
-//
-//
-//#include <iostream>
-//#include <deque>
-//
-//int main() {
-//    std::deque<int> dq2 = { 10, 20, 30, 40 };
-//
-//    // Print the initial deque
-//    std::cout << "Initial deque: ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::insert()
-//    dq.insert(dq.begin() + 2, 0);
-//    std::cout << "After insert(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::rbegin() and deque::rend() - using indices
-//    std::cout << "Using rbegin() and rend() without iterators: ";
-//    for (int i = dq.size() - 1; i >= 0; --i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::cbegin() - using indices
-//    std::cout << "Using cbegin() without iterators: ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::max_size()
-//    std::cout << "Max size: " << dq.max_size() << std::endl;
-//
-//    // deque::assign()
-//    dq.assign(3, 100);
-//    std::cout << "After assign(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::resize()
-//    dq.resize(5, 200);
-//    std::cout << "After resize(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::push_front()
-//    dq.push_front(999);
-//    std::cout << "After push_front(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::push_back()
-//    dq.push_back(1000);
-//    std::cout << "After push_back(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::pop_front()
-//    dq.pop_front();
-//    std::cout << "After pop_front(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::pop_back()
-//    dq.pop_back();
-//    std::cout << "After pop_back(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::front() and deque::back()
-//    std::cout << "Front: " << dq.front() << " Back: " << dq.back() << std::endl;
-//
-//    // deque::clear()
-//    dq.clear();
-//    std::cout << "After clear(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::empty() and deque::size()
-//    std::cout << "Empty: " << (dq.empty() ? "true" : "false") << " Size: " << dq.size() << std::endl;
-//
-//    // deque::operator= and deque::operator[]
-//    dq = dq2;
-//    std::cout << "After operator=(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::at() and deque::swap()
-//    std::cout << "Element at position 1: " << dq.at(1) << std::endl;
-//    dq.swap(dq2);
-//    std::cout << "After swap(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    // deque::emplace_front() and deque::emplace_back()
-//    dq.emplace_front(777);
-//    dq.emplace_back(8888);
-//    std::cout << "After emplace_front() and emplace_back(): ";
-//    for (size_t i = 0; i < dq.size(); ++i) {
-//        std::cout << dq[i] << " ";
-//    }
-//    std::cout << std::endl;
-//
-//    return 0;
-//}
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+#pragma warning(disable : 4996)
+//Cpp COMPREHENSIVE - Deques
+
+#include <iostream>
+#include <deque>
+
+#include <iostream>
+#include <deque>
+
+
+
+
+
+
+#include <iostream>
+#include <deque>
+
+int main() {
+    std::deque<int> dq = { 10, 20, 30, 40 };
+    std::deque<int> dq2 = { 10, 20, 30, 40 };
+
+    // Print the initial deque
+    std::cout << "Initial deque: ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::insert()
+    dq.insert(dq.begin() + 2, 0);
+    std::cout << "After insert(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::rbegin() and deque::rend() - using indices
+    std::cout << "Using rbegin() and rend() without iterators: ";
+    for (int i = dq.size() - 1; i >= 0; --i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::cbegin() - using indices
+    std::cout << "Using cbegin() without iterators: ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::max_size()
+    std::cout << "Max size: " << dq.max_size() << std::endl;
+
+    // deque::assign()
+    dq.assign(3, 100);
+    std::cout << "After assign(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::resize()
+    dq.resize(5, 200);
+    std::cout << "After resize(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::push_front()
+    dq.push_front(999);
+    std::cout << "After push_front(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::push_back()
+    dq.push_back(1000);
+    std::cout << "After push_back(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::pop_front()
+    dq.pop_front();
+    std::cout << "After pop_front(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::pop_back()
+    dq.pop_back();
+    std::cout << "After pop_back(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::front() and deque::back()
+    std::cout << "Front: " << dq.front() << " Back: " << dq.back() << std::endl;
+
+    // deque::clear()
+    dq.clear();
+    std::cout << "After clear(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::empty() and deque::size()
+    std::cout << "Empty: " << (dq.empty() ? "true" : "false") << " Size: " << dq.size() << std::endl;
+
+    // deque::operator= and deque::operator[]
+    dq = dq2;
+    std::cout << "After operator=(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::at() and deque::swap()
+    std::cout << "Element at position 1: " << dq.at(1) << std::endl;
+    dq.swap(dq2);
+    std::cout << "After swap(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // deque::emplace_front() and deque::emplace_back()
+    dq.emplace_front(777);
+    dq.emplace_back(8888);
+    std::cout << "After emplace_front() and emplace_back(): ";
+    for (size_t i = 0; i < dq.size(); ++i) {
+        std::cout << dq[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////
 ////
 //////With Auto and an iterator example for insert
