@@ -141,7 +141,7 @@
     <ClCompile Include="cppReferences.cpp">
       <Filter>Kaynak Dosyalar\Basics</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedLists.cpp">
+    <ClCompile Include="LinkedLists1.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
     <ClCompile Include="Lists.cpp">
@@ -188,6 +188,12 @@
     </ClCompile>
     <ClCompile Include="BplusTrees.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-2</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedLists2.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedLists3.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
