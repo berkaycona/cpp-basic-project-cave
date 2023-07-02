@@ -195,5 +195,8 @@
     <ClCompile Include="LinkedLists3.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-1</Filter>
     </ClCompile>
+    <ClCompile Include="constructorsAndInheritanceCopyConstructor.cpp">
+      <Filter>Kaynak Dosyalar\Inheritance</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
