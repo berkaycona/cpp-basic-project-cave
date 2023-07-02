@@ -3,15 +3,16 @@
 //#include <iostream>
 //#include <string>
 //
-////1.27.40
 //class Base {
 //private:
 //	int value;
 //public:
-//	/*Base() :value{ 0 } 
+//	int getValue() { return value; }
+//	void setValue(int x) { value = x; }
+//	Base() :value{ 0 } 
 //	{
 //		std::cout << "Base no args constructor" << std::endl;
-//	}*/
+//	}
 //	Base(int x) :value{ x }
 //	{
 //		std::cout << "Base overloaded constructor" << std::endl;
@@ -22,22 +23,23 @@
 //	}
 //};
 //
-//class Derived :public Base {
+//class Derived : public Base {
 //private:
-//	int doubledValue;
+//	int doubled_value;
 //public:
-//	Derived() :doubledValue{ 0 } 
-//	{
+//	int getDoubledValue() { return doubled_value; }
+//	void setDoubledValue(int x) { doubled_value = x; }
+//	
+//	Derived() :doubled_value{ 0 } {
 //		std::cout << "Derived no args constructor" << std::endl;
 //	}
-//	Derived(int x) :doubledValue{ 2 * x }
+//	Derived(int x) :Base(x),doubled_value{ 2*x }
 //	{
 //		std::cout << "Derived overloaded constructor" << std::endl;
 //	}
 //	~Derived()
 //	{
 //		std::cout << "Derived destructor" << std::endl;
-//
 //	}
 //};
 //
@@ -54,4 +56,3 @@
 //	Derived e{ 5 };
 //}
 //
-////1.18.52 inheritance
