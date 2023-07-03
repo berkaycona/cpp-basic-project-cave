@@ -1,3 +1,5 @@
+//#pragma warning(disable : 4996)
+////Cpp Polymorphism - Function Overloading
 //#include <iostream>
 //using namespace std;
 //
