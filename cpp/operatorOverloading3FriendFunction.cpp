@@ -4,7 +4,9 @@
 //#include <iostream>
 //
 //class Mystring{
-//	friend bool operator ==(const Mystring& lhs, const Mystring& rhs)//friend değilken tek parametre alıyordu, burda artık çift parametre alıcak, çünkü kendisi için çağırıldığını bilmiyorr
+//	//friend değilken tek parametre alıyordu, burda artık çift parametre alıcak, 
+//	//çünkü kendisi için çağırıldığını bilmiyorr
+//	friend bool operator ==(const Mystring& lhs, const Mystring& rhs)
 //	{
 //		bool isEqual= false;
 //		if ((lhs.str) == (rhs.str))
