@@ -87,7 +87,10 @@
 //
 //
 ////Copy Assignment (=)
-//MyString &MyString::operator=(const MyString& rhs)//for s1=s2, it will be called for s1. The string inside the s2 object must be copied into s1(this)
+//
+////For s1=s2, it will be called for s1. 
+////The string inside the s2 object must be copied into s1(this)
+//MyString &MyString::operator=(const MyString& rhs)
 //{
 //	cout << "Copy Assignment" << endl;
 //	if (this == &rhs)
@@ -143,7 +146,8 @@
 //	return returnValue;
 //}
 //
-//bool MyString::operator==(const MyString& rhs) const//the right constant means we are not changing inside content
+////the right constant means we are not changing inside content
+//bool MyString::operator==(const MyString& rhs) const
 //{
 //	bool isEqual=false;
 //	if (strcmp(this->str, rhs.str) == 0)//if they are the same, strcmp returns 0
