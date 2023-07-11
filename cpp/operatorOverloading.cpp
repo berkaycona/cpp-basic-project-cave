@@ -104,7 +104,7 @@
 //}
 //
 ////Move Assignment
-//MyString& MyString::operator=(MyString&& rhs)
+//MyString& MyString::operator=(MyString&& rhs)//2 &&'s
 //{
 //	cout << "Move Assignment!" << endl;
 //	if (this == &rhs)
