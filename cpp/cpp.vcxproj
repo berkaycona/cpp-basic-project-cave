@@ -148,6 +148,7 @@
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="deleteFree.cpp" />
     <ClCompile Include="Deques.cpp" />
+    <ClCompile Include="dynamicWithVirtualKeyword.cpp" />
     <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="functionOverloadingExtended1.cpp" />
     <ClCompile Include="inheritanceComposition.cpp" />
@@ -177,7 +178,7 @@
     <ClCompile Include="Trees.cpp" />
     <ClCompile Include="Tries.cpp" />
     <ClCompile Include="twoClassFriendFunction.cpp" />
-    <ClCompile Include="upDownCasting.cpp" />
+    <ClCompile Include="staticWithoutVirtualKeyword.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
