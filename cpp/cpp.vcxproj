@@ -177,6 +177,7 @@
     <ClCompile Include="Trees.cpp" />
     <ClCompile Include="Tries.cpp" />
     <ClCompile Include="twoClassFriendFunction.cpp" />
+    <ClCompile Include="upDownCasting.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
