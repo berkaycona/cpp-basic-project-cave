@@ -149,6 +149,7 @@
     <ClCompile Include="deleteFree.cpp" />
     <ClCompile Include="Deques.cpp" />
     <ClCompile Include="dynamicWithVirtualKeyword.cpp" />
+    <ClCompile Include="finalKeyword.cpp" />
     <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="functionOverloadingExtended1.cpp" />
     <ClCompile Include="inheritanceComposition.cpp" />
