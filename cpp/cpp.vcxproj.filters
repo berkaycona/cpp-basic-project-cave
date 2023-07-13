@@ -216,5 +216,8 @@
     <ClCompile Include="dynamicWithVirtualKeywordReference.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
     </ClCompile>
+    <ClCompile Include="Abstraction.cpp">
+      <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

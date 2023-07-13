@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Abstraction.cpp" />
     <ClCompile Include="AVLTrees.cpp" />
     <ClCompile Include="BalancedBinarySearchTrees.cpp" />
     <ClCompile Include="BinarySearchTrees.cpp" />
