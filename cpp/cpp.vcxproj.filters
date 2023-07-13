@@ -219,5 +219,8 @@
     <ClCompile Include="Abstraction.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
     </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

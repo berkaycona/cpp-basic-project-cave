@@ -155,6 +155,7 @@
     <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="functionOverloadingExtended1.cpp" />
     <ClCompile Include="inheritanceComposition.cpp" />
+    <ClCompile Include="Interface.cpp" />
     <ClCompile Include="keywordStatic.cpp" />
     <ClCompile Include="LinkedLists1.cpp" />
     <ClCompile Include="LinkedLists2.cpp" />
