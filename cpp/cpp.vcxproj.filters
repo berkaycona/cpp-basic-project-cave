@@ -46,6 +46,9 @@
     <Filter Include="Kaynak Dosyalar\Comprehensive-2">
       <UniqueIdentifier>{cf5b63cf-cd24-4f17-b6cf-a2b411399cf7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\Comprehensive-3">
+      <UniqueIdentifier>{2ca66127-e117-46c1-80c2-e55fa2deb3dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rectangleArea.cpp">
@@ -224,6 +227,9 @@
     </ClCompile>
     <ClCompile Include="InterfaceSolution.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="graphs.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
