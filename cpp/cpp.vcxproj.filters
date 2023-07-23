@@ -231,5 +231,8 @@
     <ClCompile Include="graphsAdjacencyList.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
+    <ClCompile Include="graphsAdjacencyMatrix.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

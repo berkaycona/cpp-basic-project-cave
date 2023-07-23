@@ -155,6 +155,7 @@
     <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="functionOverloadingExtended1.cpp" />
     <ClCompile Include="graphsAdjacencyList.cpp" />
+    <ClCompile Include="graphsAdjacencyMatrix.cpp" />
     <ClCompile Include="inheritanceComposition.cpp" />
     <ClCompile Include="InterfaceProblem.cpp" />
     <ClCompile Include="InterfaceSolution.cpp" />
