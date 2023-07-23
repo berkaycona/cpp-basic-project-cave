@@ -133,6 +133,7 @@
     <ClCompile Include="BinarySearchTrees.cpp" />
     <ClCompile Include="BinaryTrees.cpp" />
     <ClCompile Include="BplusTrees.cpp" />
+    <ClCompile Include="breadthFirstSearch.cpp" />
     <ClCompile Include="BTrees.cpp" />
     <ClCompile Include="CompoundExampleDeepCopy.cpp" />
     <ClCompile Include="CompoundExampleShallowCopy.cpp" />
