@@ -228,7 +228,7 @@
     <ClCompile Include="InterfaceSolution.cpp">
       <Filter>Kaynak Dosyalar\Polymorphism</Filter>
     </ClCompile>
-    <ClCompile Include="graphs.cpp">
+    <ClCompile Include="graphsAdjacencyList.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
   </ItemGroup>
