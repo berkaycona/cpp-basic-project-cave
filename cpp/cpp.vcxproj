@@ -149,6 +149,7 @@
     <ClCompile Include="deepCopyConstructor.cpp" />
     <ClCompile Include="defaultCopyConstructor.cpp" />
     <ClCompile Include="deleteFree.cpp" />
+    <ClCompile Include="depthFirstSearch.cpp" />
     <ClCompile Include="Deques.cpp" />
     <ClCompile Include="dynamicWithVirtualKeyword.cpp" />
     <ClCompile Include="dynamicWithVirtualKeywordReference.cpp" />
