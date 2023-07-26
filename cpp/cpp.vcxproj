@@ -185,6 +185,7 @@
     <ClCompile Include="rectangleArea.cpp" />
     <ClCompile Include="friendClass.cpp" />
     <ClCompile Include="Stacks.cpp" />
+    <ClCompile Include="stronglyConnectedComponent.cpp" />
     <ClCompile Include="topologicalSort.cpp" />
     <ClCompile Include="Trees.cpp" />
     <ClCompile Include="Tries.cpp" />
