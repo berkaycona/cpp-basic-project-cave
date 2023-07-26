@@ -1,3 +1,6 @@
+////////#pragma warning(disable : 4996)
+//////////Cpp Comprehensive PT III - stronglyConnectedComponent
+
 //#include <iostream>
 //#include <vector>
 //#include <stack>
