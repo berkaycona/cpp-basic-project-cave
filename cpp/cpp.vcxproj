@@ -162,6 +162,7 @@
     <ClCompile Include="InterfaceProblem.cpp" />
     <ClCompile Include="InterfaceSolution.cpp" />
     <ClCompile Include="keywordStatic.cpp" />
+    <ClCompile Include="kruskallsAlgorithm.cpp" />
     <ClCompile Include="LinkedLists1.cpp" />
     <ClCompile Include="LinkedLists2.cpp" />
     <ClCompile Include="LinkedLists3.cpp" />

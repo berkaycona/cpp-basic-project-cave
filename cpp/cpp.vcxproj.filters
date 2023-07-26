@@ -249,5 +249,8 @@
     <ClCompile Include="primsAlgorithm.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
+    <ClCompile Include="kruskallsAlgorithm.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
