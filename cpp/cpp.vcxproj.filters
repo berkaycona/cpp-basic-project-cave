@@ -255,5 +255,8 @@
     <ClCompile Include="dijkstrasalgorithm.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
+    <ClCompile Include="bellmanFordAlgorithm.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
