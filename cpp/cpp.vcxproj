@@ -171,6 +171,7 @@
     <ClCompile Include="operatorOverloading3FriendFunction.cpp" />
     <ClCompile Include="overrideKeyword.cpp" />
     <ClCompile Include="Pairs.cpp" />
+    <ClCompile Include="primsAlgorithm.cpp" />
     <ClCompile Include="PriorityQueues.cpp" />
     <ClCompile Include="privateProtectedPublic.cpp" />
     <ClCompile Include="Queues.cpp" />

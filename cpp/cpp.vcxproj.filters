@@ -246,5 +246,8 @@
     <ClCompile Include="stronglyConnectedComponent.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
+    <ClCompile Include="primsAlgorithm.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
