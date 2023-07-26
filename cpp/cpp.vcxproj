@@ -151,6 +151,7 @@
     <ClCompile Include="deleteFree.cpp" />
     <ClCompile Include="depthFirstSearch.cpp" />
     <ClCompile Include="Deques.cpp" />
+    <ClCompile Include="dijkstrasalgorithm.cpp" />
     <ClCompile Include="dynamicWithVirtualKeyword.cpp" />
     <ClCompile Include="dynamicWithVirtualKeywordReference.cpp" />
     <ClCompile Include="finalKeyword.cpp" />
