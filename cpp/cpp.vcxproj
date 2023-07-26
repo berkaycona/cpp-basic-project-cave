@@ -152,10 +152,11 @@
     <ClCompile Include="deleteFree.cpp" />
     <ClCompile Include="depthFirstSearch.cpp" />
     <ClCompile Include="Deques.cpp" />
-    <ClCompile Include="dijkstrasalgorithm.cpp" />
+    <ClCompile Include="dijkstrasAlgorithm.cpp" />
     <ClCompile Include="dynamicWithVirtualKeyword.cpp" />
     <ClCompile Include="dynamicWithVirtualKeywordReference.cpp" />
     <ClCompile Include="finalKeyword.cpp" />
+    <ClCompile Include="floydWarshallAlgorithm.cpp" />
     <ClCompile Include="functionOverloading.cpp" />
     <ClCompile Include="functionOverloadingExtended1.cpp" />
     <ClCompile Include="graphsAdjacencyList.cpp" />

@@ -252,10 +252,13 @@
     <ClCompile Include="kruskallsAlgorithm.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
-    <ClCompile Include="dijkstrasalgorithm.cpp">
+    <ClCompile Include="dijkstrasAlgorithm.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
     <ClCompile Include="bellmanFordAlgorithm.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
+    </ClCompile>
+    <ClCompile Include="floydWarshallAlgorithm.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
     </ClCompile>
   </ItemGroup>
