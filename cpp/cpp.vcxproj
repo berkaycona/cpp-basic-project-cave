@@ -180,6 +180,7 @@
     <ClCompile Include="primsAlgorithm.cpp" />
     <ClCompile Include="PriorityQueues.cpp" />
     <ClCompile Include="privateProtectedPublic.cpp" />
+    <ClCompile Include="quadraticProbing.cpp" />
     <ClCompile Include="Queues.cpp" />
     <ClCompile Include="RedBlackTrees.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />

@@ -270,5 +270,8 @@
     <ClCompile Include="linearProbing.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
+    <ClCompile Include="quadraticProbing.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
