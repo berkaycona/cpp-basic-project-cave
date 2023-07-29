@@ -154,6 +154,7 @@
     <ClCompile Include="depthFirstSearch.cpp" />
     <ClCompile Include="Deques.cpp" />
     <ClCompile Include="dijkstrasAlgorithm.cpp" />
+    <ClCompile Include="doubleHashing.cpp" />
     <ClCompile Include="dynamicWithVirtualKeyword.cpp" />
     <ClCompile Include="dynamicWithVirtualKeywordReference.cpp" />
     <ClCompile Include="finalKeyword.cpp" />
