@@ -49,6 +49,9 @@
     <Filter Include="Kaynak Dosyalar\Comprehensive-3">
       <UniqueIdentifier>{2ca66127-e117-46c1-80c2-e55fa2deb3dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kaynak Dosyalar\Comprehensive-4">
+      <UniqueIdentifier>{7459b761-a870-4781-b134-96d689bb7fa3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rectangleArea.cpp">
@@ -260,6 +263,9 @@
     </ClCompile>
     <ClCompile Include="floydWarshallAlgorithm.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-3</Filter>
+    </ClCompile>
+    <ClCompile Include="basicHash.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
