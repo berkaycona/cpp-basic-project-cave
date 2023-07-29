@@ -267,5 +267,8 @@
     <ClCompile Include="basicHash.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
+    <ClCompile Include="linearProbing.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
