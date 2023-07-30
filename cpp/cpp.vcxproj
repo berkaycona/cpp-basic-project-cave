@@ -174,6 +174,7 @@
     <ClCompile Include="LinkedLists2.cpp" />
     <ClCompile Include="LinkedLists3.cpp" />
     <ClCompile Include="Lists.cpp" />
+    <ClCompile Include="maps.cpp" />
     <ClCompile Include="operatorOverloading.cpp" />
     <ClCompile Include="operatorOverloading2.cpp" />
     <ClCompile Include="operatorOverloading3FriendFunction.cpp" />
