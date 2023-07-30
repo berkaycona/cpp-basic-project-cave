@@ -279,5 +279,8 @@
     <ClCompile Include="hashingWithChaining.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
+    <ClCompile Include="sets.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

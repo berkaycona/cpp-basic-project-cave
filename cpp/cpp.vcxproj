@@ -185,6 +185,7 @@
     <ClCompile Include="quadraticProbing.cpp" />
     <ClCompile Include="Queues.cpp" />
     <ClCompile Include="RedBlackTrees.cpp" />
+    <ClCompile Include="sets.cpp" />
     <ClCompile Include="shallowCopyConstructor.cpp" />
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="globalFriendFunction.cpp" />
