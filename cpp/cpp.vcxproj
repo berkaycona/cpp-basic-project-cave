@@ -206,6 +206,7 @@
     <ClCompile Include="twoClassFriendFunction.cpp" />
     <ClCompile Include="staticWithoutVirtualKeyword.cpp" />
     <ClCompile Include="unorderedMultimaps.cpp" />
+    <ClCompile Include="unorderedMultisets.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
