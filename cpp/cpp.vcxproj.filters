@@ -297,5 +297,11 @@
     <ClCompile Include="unorderedMultisets.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
+    <ClCompile Include="unorderedMaps.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
+    </ClCompile>
+    <ClCompile Include="unorderedSets.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -205,8 +205,10 @@
     <ClCompile Include="Tries.cpp" />
     <ClCompile Include="twoClassFriendFunction.cpp" />
     <ClCompile Include="staticWithoutVirtualKeyword.cpp" />
+    <ClCompile Include="unorderedMaps.cpp" />
     <ClCompile Include="unorderedMultimaps.cpp" />
     <ClCompile Include="unorderedMultisets.cpp" />
+    <ClCompile Include="unorderedSets.cpp" />
     <ClCompile Include="videogames.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
