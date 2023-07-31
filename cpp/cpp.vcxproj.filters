@@ -285,5 +285,8 @@
     <ClCompile Include="maps.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
+    <ClCompile Include="multisets.cpp">
+      <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
