@@ -19,7 +19,7 @@
 //
 //
 //	// empty multiset container
-//	multiset<int, greater<int> > gquiz1;
+//	std::multiset<int, greater<int> > gquiz1;
 //
 //	// insert elements in random order
 //	gquiz1.insert(40);
@@ -95,7 +95,7 @@
 //
 //
 //	//Example 2: REMOVE AN ELEMENT FROM MULTISET WHICH HAVE SAME VALUE
-//	std::cout << "Example 2: Remove an element from multiset which have same value\n-------------------------------------\n";
+//	std::cout << "\n\nExample 2: Remove an element from multiset which have same value\n-------------------------------------\n";
 //
 //
 //
