@@ -76,10 +76,9 @@
 //    //Example 2: Initialization, indexing, and iteration
 //    std::cout << "\n\n\nExample 2: Initialization, indexing, and iteration\n------------------------\n";
 //
-//    // Declaring umap to be of 
-//  // <string, double> type key 
-//  // will be of string type and 
-//  // mapped value will be of double type
+//    // Declaring umap to be of <string, double> type key 
+//    // will be of string type and 
+//    // mapped value will be of double type
 //    unordered_map<string, double> umapE2 = {  //inserting element directly in map
 //    {"One", 1},
 //    {"Two", 2},
