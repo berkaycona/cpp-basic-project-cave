@@ -24,7 +24,7 @@
 //	}
 //}
 //
-//
+////EXAMPLE 2 : erase particular value from unordered multimap
 //void printUmm2(unordered_multimap<string, int>& umm)
 //{
 //
