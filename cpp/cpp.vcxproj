@@ -180,6 +180,7 @@
     <ClCompile Include="operatorOverloading.cpp" />
     <ClCompile Include="operatorOverloading2.cpp" />
     <ClCompile Include="operatorOverloading3FriendFunction.cpp" />
+    <ClCompile Include="optimizedReturns.cpp" />
     <ClCompile Include="overrideKeyword.cpp" />
     <ClCompile Include="Pairs.cpp" />
     <ClCompile Include="primsAlgorithm.cpp" />

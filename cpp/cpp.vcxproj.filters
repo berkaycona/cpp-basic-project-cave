@@ -303,5 +303,8 @@
     <ClCompile Include="unorderedSets.cpp">
       <Filter>Kaynak Dosyalar\Comprehensive-4</Filter>
     </ClCompile>
+    <ClCompile Include="optimizedReturns.cpp">
+      <Filter>Kaynak Dosyalar\simpleClasses</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
