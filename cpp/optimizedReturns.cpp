@@ -23,19 +23,30 @@ public:
 class MyClassA {
 private:
     vector<MyClassB> objB;
-    //vector<MyClassB*> objBPtr;
+    vector<MyClassB*> objBPtr;
 public:
      vector<MyClassB>& getObjB()  
     {
         return objB;
     }
 
-    void setObjB( vector<MyClassB>& objBArg)
+    void setObjB( vector<MyClassB>& objBArg )
     {
         objB = objBArg;
     }
 
 
+
+    //vector<MyClassB*> getObjBPtr()// return type error
+    //vector<MyClassB>* getObjBPtr()// private tanýmlanan deðiþkenle ayný deðil error'U
+    vector<MyClassB*>* getObjBPtr()
+    {
+        return &objBPtr;
+    }
+    void setObjBPtr(MyClassB* objBPtrArg)
+    {
+        objBPtr.push_back(objBPtrArg);
+    }
 };
 
 void referenceOrCopyClassWithoutConst()
@@ -64,14 +75,22 @@ void referenceOrCopyClassWithoutConst()
 
 
     //BÖYLE DE ERÝÞÝLEBÝLÝYOR.
-    int a = objAMain.getObjB()[0].getAge();
-    int b = objAMain.getObjB().at(0).getAge();
+    int a = objAMain.getObjB()[2].getAge();
+    int b = objAMain.getObjB().at(2).getAge();
     cout << a << "         " << b;
 }
 
 int main()
 {
     //referenceOrCopyClassWithoutConst();
+
+    MyClassA objAMain;
+
+    MyClassB* objBMain = new MyClassB();
+    objBMain->setAge(12);
+
+
+    objAMain.setObjBPtr(objBMain);
 }
 
 
