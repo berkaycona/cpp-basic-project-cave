@@ -306,5 +306,8 @@
     <ClCompile Include="optimizedReturns.cpp">
       <Filter>Kaynak Dosyalar\simpleClasses</Filter>
     </ClCompile>
+    <ClCompile Include="memSetCopyEndian.cpp">
+      <Filter>Kaynak Dosyalar\Basics</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -175,6 +175,7 @@
     <ClCompile Include="LinkedLists3.cpp" />
     <ClCompile Include="Lists.cpp" />
     <ClCompile Include="maps.cpp" />
+    <ClCompile Include="memSetCopyEndian.cpp" />
     <ClCompile Include="multimaps.cpp" />
     <ClCompile Include="multisets.cpp" />
     <ClCompile Include="operatorOverloading.cpp" />
